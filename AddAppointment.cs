@@ -351,5 +351,10 @@ namespace C969
                 MessageBox.Show("Error: " + ex.Message);
             }
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
