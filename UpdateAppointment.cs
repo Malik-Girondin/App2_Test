@@ -289,7 +289,6 @@ namespace C969
                 DateTime selectedTime = DateTime.ParseExact(comboBox1.Text, "hh:mm tt", CultureInfo.InvariantCulture);
                 DateTime start = selectedDate.Add(selectedTime.TimeOfDay);
                 DateTime end = start.AddHours(0.25);
-                string type = textBoxType.Text;
                 string reason = textBox4.Text;
 
                 string query = "UPDATE Appointment SET Start = @Start, End = @End, Type = @Type, Description = @Reason WHERE appointmentId = @AppointmentId";
@@ -297,7 +296,6 @@ namespace C969
                 {
                     cmd.Parameters.AddWithValue("@Start", start);
                     cmd.Parameters.AddWithValue("@End", end);
-                    cmd.Parameters.AddWithValue("@Type", type);
                     cmd.Parameters.AddWithValue("@Reason", reason);
                     cmd.Parameters.AddWithValue("@AppointmentId", appointmentId);
 
@@ -412,6 +410,11 @@ namespace C969
         private void button2_Click_1(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
