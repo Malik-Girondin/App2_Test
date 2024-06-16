@@ -176,7 +176,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(157, 32);
             this.label4.TabIndex = 35;
-            this.label4.Text = "Description";
+            this.label4.Text = "Reason";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label2
