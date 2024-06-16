@@ -49,9 +49,9 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(443, 98);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(65, 20);
+            this.label8.Size = new System.Drawing.Size(48, 20);
             this.label8.TabIndex = 48;
-            this.label8.Text = "Reason";
+            this.label8.Text = "Type";
             // 
             // label7
             // 
