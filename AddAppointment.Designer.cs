@@ -158,7 +158,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(99, 20);
             this.label7.TabIndex = 31;
-            this.label7.Text = "Customer ID";
+            this.label7.Text = "Customer Name";
             // 
             // label8
             // 

@@ -184,7 +184,7 @@ namespace C969
 
                     if (customerId == -1)
                     {
-                        MessageBox.Show("Invalid customer. Please check the customer information.");
+                        MessageBox.Show("Invalid customer name. Please check the customer information.");
                         return;
                     }
 
