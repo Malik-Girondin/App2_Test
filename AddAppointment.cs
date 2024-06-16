@@ -15,6 +15,7 @@ namespace C969
         {
             InitializeComponent();
             PopulateTimeZones();
+            PopulateAppointmentTimes();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -28,7 +29,7 @@ namespace C969
 
         public int GetCustomerIdByName(string customerName)
         {
-            string query = "SELECT CustomerID FROM customer WHERE CustomerID = @CustomerID";
+            string query = "SELECT CustomerID FROM customer WHERE CustomerName = @CustomerName";
             string connectionString = ConfigurationManager.ConnectionStrings["localdb"].ConnectionString;
 
             using (MySqlConnection con = new MySqlConnection(connectionString))
@@ -36,7 +37,7 @@ namespace C969
             {
                 try
                 {
-                    cmd.Parameters.AddWithValue("@CustomerID", customerName);
+                    cmd.Parameters.AddWithValue("@CustomerName", customerName);
                     con.Open();
 
                     object result = cmd.ExecuteScalar();
@@ -50,9 +51,9 @@ namespace C969
             }
         }
 
-        public int GetPhoneByCustomerId (string customerName)
+        public int GetPhoneByCustomerId(string customerName)
         {
-            string query = "SELECT phone FROM customer WHERE Phone = @Phone";
+            string query = "SELECT phone FROM customer WHERE CustomerName = @CustomerName";
             string connectionString = ConfigurationManager.ConnectionStrings["localdb"].ConnectionString;
 
             using (MySqlConnection con = new MySqlConnection(connectionString))
@@ -60,7 +61,7 @@ namespace C969
             {
                 try
                 {
-                    cmd.Parameters.AddWithValue("@CustomerID", customerName);
+                    cmd.Parameters.AddWithValue("@CustomerName", customerName);
                     con.Open();
 
                     object result = cmd.ExecuteScalar();
@@ -73,7 +74,6 @@ namespace C969
                 }
             }
         }
-
 
         private int? GetUserIdByName(string userName)
         {
@@ -145,7 +145,7 @@ namespace C969
                 catch (Exception ex)
                 {
                     MessageBox.Show("Error: " + ex.Message);
-                    return true; 
+                    return true;
                 }
             }
         }
@@ -169,7 +169,7 @@ namespace C969
                         userId = InsertNewUser(userName, con);
                     }
 
-                    string customerName = textBox3.Text; 
+                    string customerName = textBox3.Text;
                     int customerId = GetCustomerIdByName(customerName);
 
                     if (customerId == -1)
@@ -180,7 +180,7 @@ namespace C969
 
                     string description = textBox5.Text;
                     string location = "Main Office";
-                    string type = "Appointment";
+                    string type = textBoxType.Text;  // Capture type
                     string contact = GetPhoneByCustomerId(customerName).ToString();
                     string url = ".";
                     DateTime selectedDate = monthCalendar1.SelectionStart.Date;
@@ -188,7 +188,6 @@ namespace C969
                     DateTime start = selectedDate.Add(selectedTime.TimeOfDay);
                     DateTime end = start.AddHours(0.25);
                     DateTime createDate = DateTime.Now;
-
 
                     if (IsTimeConflicted(start, end))
                     {
@@ -222,8 +221,6 @@ namespace C969
                     appointmentCmd.Parameters.AddWithValue("@LastUpdateBy", lastUpdateBy);
                     appointmentCmd.ExecuteNonQuery();
 
-
-
                     Main form = (Main)Application.OpenForms["Main"];
                     if (form != null)
                     {
@@ -246,12 +243,6 @@ namespace C969
             }
         }
 
-
-        private async void monthCalendar1_Load(object sender, DateRangeEventArgs e)
-        {
-
-        }
-
         private void PopulateTimeZones()
         {
             comboBox2.Items.Clear();
@@ -261,58 +252,23 @@ namespace C969
             }
         }
 
+        private void PopulateAppointmentTimes()
+        {
+            comboBox1.Items.Clear();
+            for (int hour = 0; hour < 24; hour++)
+            {
+                for (int minute = 0; minute < 60; minute += 15)
+                {
+                    DateTime time = new DateTime(2024, 1, 1, hour, minute, 0);
+                    comboBox1.Items.Add(time.ToString("hh:mm tt"));
+                }
+            }
+        }
+
         private void Form_Load(object sender, EventArgs e)
         {
             TextBox.CheckForIllegalCrossThreadCalls = false;
             Label.CheckForIllegalCrossThreadCalls = false;
-        }
-
-        private async void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
-        {
-            Main form = new Main();
-            await Task.Run(() =>
-            {
-                try
-                {
-                    string selectedTimeZoneId = string.Empty;
-                    comboBox2.Invoke((Action)(() =>
-                    {
-                        selectedTimeZoneId = comboBox2.SelectedItem?.ToString();
-                    }));
-
-                    TimeZoneInfo selectedTimeZone = TimeZoneInfo.FindSystemTimeZoneById(selectedTimeZoneId);
-
-                    DateTime selectedDate = monthCalendar1.SelectionStart;
-
-                    DateTimeOffset selectedDateTimeOffset = new DateTimeOffset(selectedDate, selectedTimeZone.GetUtcOffset(selectedDate));
-
-                    DateTime startTime = TimeZoneInfo.ConvertTime(selectedDateTimeOffset, selectedTimeZone).DateTime.AddHours(9);
-                    DateTime endTime = TimeZoneInfo.ConvertTime(selectedDateTimeOffset, selectedTimeZone).DateTime.AddHours(17);
-
-                    textBox1.Invoke((Action)(() =>
-                    {
-                        textBox1.Text = selectedDate.ToShortDateString().ToString();
-                    }));
-
-                    List<string> itemsToAdd = new List<string>();
-
-                    while (startTime < endTime)
-                    {
-                        itemsToAdd.Add(startTime.ToString("hh:mm tt"));
-                        startTime = startTime.AddMinutes(15);
-                    }
-
-                    comboBox1.Invoke((Action)(() =>
-                    {
-                        comboBox1.Items.Clear();
-                        comboBox1.Items.AddRange(itemsToAdd.ToArray());
-                    }));
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error: " + ex.Message);
-                }
-            });
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
@@ -321,25 +277,69 @@ namespace C969
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
         }
+
         private void AddAppointment_Load(object sender, EventArgs e)
         {
-
+            PopulateTimeZones();
+            PopulateAppointmentTimes();
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
+        }
 
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+            try
+            {
+                string selectedTimeZoneId = string.Empty;
+                comboBox2.Invoke((Action)(() =>
+                {
+                    selectedTimeZoneId = comboBox2.SelectedItem?.ToString();
+                }));
+
+                TimeZoneInfo selectedTimeZone = TimeZoneInfo.FindSystemTimeZoneById(selectedTimeZoneId);
+
+                DateTime selectedDate = monthCalendar1.SelectionStart;
+                DateTimeOffset selectedDateTimeOffset = new DateTimeOffset(selectedDate, selectedTimeZone.GetUtcOffset(selectedDate));
+
+                DateTime localDateTime = selectedDateTimeOffset.LocalDateTime;
+
+                textBox1.Invoke((Action)(() =>
+                {
+                    textBox1.Text = localDateTime.ToShortDateString();
+                }));
+
+                List<string> itemsToAdd = new List<string>();
+
+                DateTime startTime = new DateTime(localDateTime.Year, localDateTime.Month, localDateTime.Day, 9, 0, 0);
+                DateTime endTime = new DateTime(localDateTime.Year, localDateTime.Month, localDateTime.Day, 17, 0, 0);
+
+                while (startTime < endTime)
+                {
+                    itemsToAdd.Add(startTime.ToString("hh:mm tt"));
+                    startTime = startTime.AddMinutes(15);
+                }
+
+                comboBox1.Invoke((Action)(() =>
+                {
+                    comboBox1.Items.Clear();
+                    comboBox1.Items.AddRange(itemsToAdd.ToArray());
+                }));
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
         }
     }
 }

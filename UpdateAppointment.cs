@@ -21,7 +21,6 @@ namespace C969
             _selectedRow = selectedRow;
         }
 
-
         private int appointmentId_Counter;
 
         private async void UpdateAppointment_Load(object sender, EventArgs e)
@@ -34,6 +33,7 @@ namespace C969
                 try
                 {
                     PopulateTimeZones();
+                    PopulateAppointmentTimes();
                     CheckAppointmentsWithin15Minutes();
                 }
                 catch (Exception ex)
@@ -54,6 +54,19 @@ namespace C969
             if (comboBox2.Items.Count > 0)
             {
                 selectedTimeZoneId = comboBox2.Items[0].ToString();
+            }
+        }
+
+        private void PopulateAppointmentTimes()
+        {
+            comboBox1.Items.Clear();
+            for (int hour = 0; hour < 24; hour++)
+            {
+                for (int minute = 0; minute < 60; minute += 15)
+                {
+                    DateTime time = new DateTime(2024, 1, 1, hour, minute, 0);
+                    comboBox1.Items.Add(time.ToString("hh:mm tt"));
+                }
             }
         }
 
@@ -209,7 +222,7 @@ namespace C969
 
         public int GetPhoneByCustomerId(string customerName)
         {
-            string query = "SELECT phone FROM customer WHERE Phone = @Phone";
+            string query = "SELECT phone FROM customer WHERE CustomerName = @CustomerName";
             string connectionString = ConfigurationManager.ConnectionStrings["localdb"].ConnectionString;
 
             using (MySqlConnection con = new MySqlConnection(connectionString))
@@ -217,7 +230,7 @@ namespace C969
             {
                 try
                 {
-                    cmd.Parameters.AddWithValue("@CustomerID", customerName);
+                    cmd.Parameters.AddWithValue("@CustomerName", customerName);
                     con.Open();
 
                     object result = cmd.ExecuteScalar();
@@ -230,7 +243,6 @@ namespace C969
                 }
             }
         }
-
 
         private bool IsTimeConflicted(DateTime start, DateTime end)
         {
@@ -262,7 +274,6 @@ namespace C969
             }
         }
 
-
         private void UpdateAppointmentDetails(MySqlConnection con, int appointmentId)
         {
             try
@@ -278,13 +289,17 @@ namespace C969
                 DateTime selectedTime = DateTime.ParseExact(comboBox1.Text, "hh:mm tt", CultureInfo.InvariantCulture);
                 DateTime start = selectedDate.Add(selectedTime.TimeOfDay);
                 DateTime end = start.AddHours(0.25);
+                string type = textBoxType.Text;
+                string reason = textBox4.Text;
 
-                string query = "UPDATE Appointment SET Start = @Start, End = @End WHERE CustomerID = @CustomerID";
+                string query = "UPDATE Appointment SET Start = @Start, End = @End, Type = @Type, Description = @Reason WHERE appointmentId = @AppointmentId";
                 using (MySqlCommand cmd = new MySqlCommand(query, con))
                 {
                     cmd.Parameters.AddWithValue("@Start", start);
                     cmd.Parameters.AddWithValue("@End", end);
-                    cmd.Parameters.AddWithValue("@CustomerID", appointmentId);
+                    cmd.Parameters.AddWithValue("@Type", type);
+                    cmd.Parameters.AddWithValue("@Reason", reason);
+                    cmd.Parameters.AddWithValue("@AppointmentId", appointmentId);
 
                     int rowsAffected = cmd.ExecuteNonQuery();
                     if (rowsAffected > 0)
@@ -302,6 +317,7 @@ namespace C969
                 MessageBox.Show("Error: " + ex.Message);
             }
         }
+
         private int GetAppointmentIdFromSomeSource()
         {
             int appointmentId = -1;
@@ -314,10 +330,10 @@ namespace C969
                     string customerName = textBox3.Text;
 
                     con.Open();
-                    string query = "SELECT CustomerID FROM Appointment; ";
+                    string query = "SELECT appointmentId FROM Appointment WHERE CustomerId = @CustomerId";
                     using (MySqlCommand cmd = new MySqlCommand(query, con))
                     {
-                        cmd.Parameters.AddWithValue("@CustomerID", GetCustomerIdByName(customerName));
+                        cmd.Parameters.AddWithValue("@CustomerId", GetCustomerIdByName(customerName));
 
                         object result = cmd.ExecuteScalar();
                         if (result != null && result != DBNull.Value)
@@ -391,11 +407,6 @@ namespace C969
             {
                 MessageBox.Show("Error: " + ex.Message);
             }
-        }
-
-        private void monthCalendar1_DateChanged_1(object sender, DateRangeEventArgs e)
-        {
-
         }
 
         private void button2_Click_1(object sender, EventArgs e)
