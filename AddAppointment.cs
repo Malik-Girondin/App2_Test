@@ -41,7 +41,17 @@ namespace C969
                     con.Open();
 
                     object result = cmd.ExecuteScalar();
-                    return result != null && result != DBNull.Value ? Convert.ToInt32(result) : -1;
+                    if (result != null && result != DBNull.Value)
+                    {
+                        int customerId = Convert.ToInt32(result);
+                        Console.WriteLine($"Customer ID found: {customerId}");
+                        return customerId;
+                    }
+                    else
+                    {
+                        Console.WriteLine("No customer found with the given name.");
+                        return -1;
+                    }
                 }
                 catch (Exception ex)
                 {
