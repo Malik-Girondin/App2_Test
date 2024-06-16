@@ -7,7 +7,7 @@ namespace C969
         public int AppointmentId { get; set; }
         public int CustomerId { get; set; }
         public int userId { get; set; }
-        public string title { get; set; }
+        public string appointmentType { get; set; }
         public string description { get; set; }
         public string location { get; set; }
         public string contact { get; set; }
@@ -20,12 +20,12 @@ namespace C969
         public int LastUpdate { get; set; }
         public int LastUpdateBy { get; set; }
 
-        public Appointment(int AppointmentId, int CustomerId, int userId, string title, string description, string location, string contact, string type, string url, DateTime start, DateTime end, DateTime CreateDate, int LastUpdate, int LastUpdateBy)
+        public Appointment(int AppointmentId, int CustomerId, int userId, string appointmentType, string description, string location, string contact, string type, string url, DateTime start, DateTime end, DateTime CreateDate, int LastUpdate, int LastUpdateBy)
         {
             AppointmentId = AppointmentId;
             CustomerId = CustomerId;
             userId = userId;
-            title = title;
+            appointmentType = appointmentType;
             description = description;
             location = location;
             contact = contact;
