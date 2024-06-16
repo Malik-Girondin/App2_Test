@@ -3,44 +3,100 @@
   "WorkspaceRootPath": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\addappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\addappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:addappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\addappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:addappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\addappointment.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:addappointment.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\updateappointment.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\updateappointment.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:updateappointment.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\updateappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:updateappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\updateappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\addappointment.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:addappointment.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\addappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:addappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\updateappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:updateappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\updateappointment.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:updateappointment.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\addappointment.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\database.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:database.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\database.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:database.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\userreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:userreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\appointmentreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:appointmentreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\reports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:reports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\customeradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:customeradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|c:\\users\\malikgirondin\\desktop\\c969\\second_attempt_2\\customerupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:customerupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\addappointment.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:addappointment.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\updateappointment.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{BD6FB23C-5AA4-4B85-83B6-DFE38C758E4B}|C969.csproj|solutionrelative:updateappointment.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,47 +106,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Database.cs",
-              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Database.cs",
-              "RelativeDocumentMoniker": "Database.cs",
-              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Database.cs",
-              "RelativeToolTip": "Database.cs",
-              "ViewState": "AQIAAE4AAAAABgAAAIAUwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T19:38:16.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddAppointment.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\AddAppointment.Designer.cs",
-              "RelativeDocumentMoniker": "AddAppointment.Designer.cs",
-              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\AddAppointment.Designer.cs",
-              "RelativeToolTip": "AddAppointment.Designer.cs",
-              "ViewState": "AQIAAKUAAACAzczMzMwwwK4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T18:24:20.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddAppointment.cs",
-              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\AddAppointment.cs",
-              "RelativeDocumentMoniker": "AddAppointment.cs",
-              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\AddAppointment.cs",
-              "RelativeToolTip": "AddAppointment.cs",
-              "ViewState": "AQIAAFsBAAAAAAAAAAAIwGQBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T18:24:08.194Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -105,45 +122,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Database.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Database.cs",
-              "RelativeDocumentMoniker": "Database.cs",
-              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Database.cs [Design]",
-              "RelativeToolTip": "Database.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T19:36:06.746Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdateAppointment.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\UpdateAppointment.Designer.cs",
-              "RelativeDocumentMoniker": "UpdateAppointment.Designer.cs",
-              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\UpdateAppointment.Designer.cs",
-              "RelativeToolTip": "UpdateAppointment.Designer.cs",
-              "ViewState": "AQIAAEYAAACALTMzMzMwwPMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T18:19:52.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "UpdateAppointment.cs",
               "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\UpdateAppointment.cs",
               "RelativeDocumentMoniker": "UpdateAppointment.cs",
               "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\UpdateAppointment.cs",
               "RelativeToolTip": "UpdateAppointment.cs",
-              "ViewState": "AQIAAAsBAAAA0MzMzEwXwKEBAAAAAAAA",
+              "ViewState": "AQIAABkBAACA/f///z8wwCUBAABsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T18:12:33.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T20:40:08.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateAppointment.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\UpdateAppointment.Designer.cs",
+              "RelativeDocumentMoniker": "UpdateAppointment.Designer.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\UpdateAppointment.Designer.cs",
+              "RelativeToolTip": "UpdateAppointment.Designer.cs",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAUwLIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T18:19:52.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddAppointment.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\AddAppointment.Designer.cs",
+              "RelativeDocumentMoniker": "AddAppointment.Designer.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\AddAppointment.Designer.cs",
+              "RelativeToolTip": "AddAppointment.Designer.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAUwDIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T18:24:20.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddAppointment.cs",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\AddAppointment.cs",
+              "RelativeDocumentMoniker": "AddAppointment.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\AddAppointment.cs",
+              "RelativeToolTip": "AddAppointment.cs",
+              "ViewState": "AQIAAMoAAAAAAAAAAAAUwNsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T18:24:08.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UpdateAppointment.cs [Design]",
               "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\UpdateAppointment.cs",
               "RelativeDocumentMoniker": "UpdateAppointment.cs",
@@ -155,19 +199,186 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Main.cs [Design]",
+              "RelativeToolTip": "Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T20:03:48.628Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "UpdateAppointment.resx",
-              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\UpdateAppointment.resx",
-              "RelativeDocumentMoniker": "UpdateAppointment.resx",
-              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\UpdateAppointment.resx",
-              "RelativeToolTip": "UpdateAppointment.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-06-16T18:25:11.461Z",
+              "Title": "Database.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Database.Designer.cs",
+              "RelativeDocumentMoniker": "Database.Designer.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Database.Designer.cs",
+              "RelativeToolTip": "Database.Designer.cs",
+              "ViewState": "AQIAAAkAAAAA5v//////vwsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T22:02:40.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Database.resx",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Database.resx",
+              "RelativeDocumentMoniker": "Database.resx",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Database.resx",
+              "RelativeToolTip": "Database.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-16T22:02:41.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Database.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Database.cs",
+              "RelativeDocumentMoniker": "Database.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Database.cs [Design]",
+              "RelativeToolTip": "Database.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T19:36:06.746Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Database.cs",
+              "RelativeDocumentMoniker": "Database.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Database.cs",
+              "RelativeToolTip": "Database.cs",
+              "ViewState": "AQIAAKgAAAAAcJmZmZnlv7EAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T19:38:16.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Customer.cs",
+              "RelativeDocumentMoniker": "Customer.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Customer.cs",
+              "RelativeToolTip": "Customer.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwBUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T22:04:17.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppointmentReport.cs",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\AppointmentReport.cs",
+              "RelativeDocumentMoniker": "AppointmentReport.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\AppointmentReport.cs",
+              "RelativeToolTip": "AppointmentReport.cs",
+              "ViewState": "AQIAAAkAAAAAnpmZmdknwBIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T20:58:08.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Reports.cs",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Reports.cs",
+              "RelativeDocumentMoniker": "Reports.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Reports.cs",
+              "RelativeToolTip": "Reports.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAUwFMAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T20:58:12.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomerAdd.cs",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\CustomerAdd.cs",
+              "RelativeDocumentMoniker": "CustomerAdd.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\CustomerAdd.cs",
+              "RelativeToolTip": "CustomerAdd.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAUwG0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T20:58:58.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserReport.cs",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\UserReport.cs",
+              "RelativeDocumentMoniker": "UserReport.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\UserReport.cs",
+              "RelativeToolTip": "UserReport.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA/wBQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T20:03:42.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Address.cs",
+              "RelativeDocumentMoniker": "Address.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Address.cs",
+              "RelativeToolTip": "Address.cs",
+              "ViewState": "AQIAABAAAAAAoJuZmZmpvxoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T20:58:46.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomerUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\CustomerUpdate.cs",
+              "RelativeDocumentMoniker": "CustomerUpdate.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\CustomerUpdate.cs",
+              "RelativeToolTip": "CustomerUpdate.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAUwDYAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T20:59:04.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Appointment.cs",
+              "RelativeDocumentMoniker": "Appointment.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Appointment.cs",
+              "RelativeToolTip": "Appointment.cs",
+              "ViewState": "AQIAAA4AAACA0szMzMwTwBMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T19:39:49.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Main.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Main.Designer.cs",
+              "RelativeDocumentMoniker": "Main.Designer.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Main.Designer.cs",
+              "RelativeToolTip": "Main.Designer.cs",
+              "ViewState": "AQIAAD0BAAAAAAAAAAAUwEsBAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T20:04:22.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "AddAppointment.resx",
               "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\AddAppointment.resx",
               "RelativeDocumentMoniker": "AddAppointment.resx",
@@ -175,6 +386,31 @@
               "RelativeToolTip": "AddAppointment.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2024-06-16T18:23:58.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAIwGgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T20:03:51.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateAppointment.resx",
+              "DocumentMoniker": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\UpdateAppointment.resx",
+              "RelativeDocumentMoniker": "UpdateAppointment.resx",
+              "ToolTip": "C:\\Users\\malikgirondin\\Desktop\\C969\\Second_Attempt_2\\UpdateAppointment.resx",
+              "RelativeToolTip": "UpdateAppointment.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-16T18:25:11.461Z",
               "EditorCaption": ""
             }
           ]
