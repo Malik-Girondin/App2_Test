@@ -190,7 +190,6 @@ namespace C969
 
                     string description = textBox5.Text;
                     string location = "Main Office";
-                    string type = textBoxType.Text;  // Capture type
                     string contact = GetPhoneByCustomerId(customerName).ToString();
                     string url = ".";
                     DateTime selectedDate = monthCalendar1.SelectionStart.Date;
@@ -221,7 +220,6 @@ namespace C969
                     appointmentCmd.Parameters.AddWithValue("@Description", description);
                     appointmentCmd.Parameters.AddWithValue("@Location", location);
                     appointmentCmd.Parameters.AddWithValue("@Contact", contact);
-                    appointmentCmd.Parameters.AddWithValue("@Type", type);
                     appointmentCmd.Parameters.AddWithValue("@Url", url);
                     appointmentCmd.Parameters.AddWithValue("@Start", start);
                     appointmentCmd.Parameters.AddWithValue("@End", end);
@@ -353,6 +351,11 @@ namespace C969
         }
 
         private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
