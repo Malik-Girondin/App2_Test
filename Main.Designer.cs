@@ -207,10 +207,10 @@
             this.button8.Location = new System.Drawing.Point(1216, 642);
             this.button8.Margin = new System.Windows.Forms.Padding(5);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(704, 73);
+            this.button8.Size = new System.Drawing.Size(964, 73);
             this.button8.TabIndex = 13;
-            this.button8.Text = "Report by UserID: These are random identifiers tied to a user\'s account (Ad" +
-    "ditional Report)";
+            this.button8.Text = "Report by UserID: These are random identifiers tied to a user\'s account (Addition" +
+    "al Report)";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
